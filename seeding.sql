@@ -18,6 +18,6 @@ VALUES
 ('Florence Pugh','03/01/1996','Yenela Belova / Black Widow',5),
 ('Tom Holland','01/06/1996','Peter Parker / Spider Man',2),
 ('Scarlett Johansson','22/11/1984','Natasha Romanoff / Black Widow',5),
-('Chis Evans','13/06/1981','Steve Rogers / Captain America',1);
+('Chris Evans','13/06/1981','Steve Rogers / Captain America',1);
 
 COMMIT;
