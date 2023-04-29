@@ -14,10 +14,10 @@ CREATE TABLE
         "duration" INTEGER NOT NULL
     );
 
-CREATE TABLE actor(
+CREATE TABLE "actor"(
   "actor_id" integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   "name" VARCHAR(50) NOT NULL,
-  "birthdate" DATE NOT NULL,
+  "birth_date" DATE NOT NULL,
   "role" VARCHAR(100) NOT NULL,
   "movie_code" integer NOT NULL REFERENCES movie("movie_id")
  );
